@@ -4,8 +4,8 @@ public class Mage extends Entity {
     
     private int mana;
 
-    public Mage(double velocity, int life, int mainAttack, int armor, int magicDefense, int mana){
-        super(velocity ,life ,mainAttack ,armor, magicDefense);
+    public Mage(double velocity, int life, int mainAttack, int armor, int magicDefense, int mana, String name){
+        super(velocity ,life ,mainAttack ,armor, magicDefense, name);
         this.mana = mana;
     }
 
